@@ -7,13 +7,15 @@ function takeANumber(currentLine, newPerson){
   return str;
   return currentLine;
 }
+// return the new persons name and the number they are in line
 
 function nowServing(currentLine){
-  if (currentLine.length < 1 || currentLine === undefined){
+  if (currentLine.length < 1){
     return "There is nobody waiting to be served!"
   }
     var firstPerson = currentLine[0];
     var newLine = currentLine.shift()
+    // the shift pushes the array one over to the right.
 
     console.log(newLine);
   return ("Currently serving " + firstPerson + ".")
