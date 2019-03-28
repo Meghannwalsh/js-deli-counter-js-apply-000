@@ -40,3 +40,4 @@ function currentLine(current){
   }
   return str;
 }
+// returns the placement of each person in line using a string.
