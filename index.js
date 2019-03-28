@@ -14,7 +14,7 @@ function nowServing(currentLine){
     return "There is nobody waiting to be served!"
   }
     var firstPerson = currentLine[0];
-    var newLine = currentLine.shift(2)
+    var newLine = currentLine.shift()
     // the shift pushes the array one over to the right.
 
   //  console.log(newLine);
