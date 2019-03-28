@@ -20,6 +20,7 @@ function nowServing(currentLine){
   //  console.log(newLine);
   return ("Currently serving " + firstPerson + ".")
 }
+// return first person in line and than get rid of that person from line.
 
 function currentLine(current){
   var str = "";
