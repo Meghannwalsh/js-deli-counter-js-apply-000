@@ -32,9 +32,11 @@ function currentLine(current){
     var person = current[i];
   if (i === (current.length - 1)){
     str += ((i + 1) + ". " + person)
+    // if last person dont do a comma.
   } else{
         str += ((i + 1) + ". " + person + ", ");
       }
+      // if anyone else do comma.
   }
   return str;
 }
