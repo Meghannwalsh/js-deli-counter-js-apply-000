@@ -24,7 +24,7 @@ function nowServing(currentLine){
 
 function currentLine(current){
   var str = "";
-  if (current.length < 1 || current === undefined){
+  if (current.length < 1){
     return ("The line is currently empty.")
   }
   str += 'The line is currently: '
