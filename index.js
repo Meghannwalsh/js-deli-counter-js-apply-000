@@ -17,7 +17,7 @@ function nowServing(currentLine){
     var newLine = currentLine.shift()
     // the shift pushes the array one over to the right.
 
-    console.log(newLine);
+  //  console.log(newLine);
   return ("Currently serving " + firstPerson + ".")
 }
 
